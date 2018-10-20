@@ -1,0 +1,230 @@
+.contenedor{
+    width: 100%;
+    height: auto;
+    /*background: ;*/
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.caja{
+    width: 45%;
+    height: auto;
+    /*background: ;*/
+    margin: 20px;
+}
+/*add responsive media queries*/
+
+@media screen and (max-width: 1200px){
+    .caja{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .caja{
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .caja{
+        width: 80%;
+    }
+}
+/*
+*{
+    margin: 10px;
+    padding: 0;
+}
+div.body{
+    margin: auto;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+*/
+
+/*estiloos para las imagenes que hacen preguntas  */
+.imagen-pre1 .imagen-pre2 .imagen-pre3 .imagen-pre4 .imagen-pre5 .imagen-pre6 .imagen-pre7 .imagen-pre8 .imagen-pre9 .imagen-pre10{
+    /*width: 300px;*/
+}
+.imagen-pregunta{
+    width: 90%;
+}
+.imagen-pre10,.imagen-pre3, .imagen-pre4{
+    width: auto;
+}
+/*estilos para las imagenes de respuestas */
+.imagen-respuesta{
+    width: 7%;
+}
+.imgen-res7{
+    width: 12%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:  100%;
+    font-family: sans-serif;
+    background: #86AF86;
+}
+label{
+    font-weight: bold;
+    font-size: 15px;
+    color: #1a101b;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    /*margin-bottom: -15px;*/
+    display: inline-block;
+}
+.form-radio
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #C1C1C1;
+    color: #666;
+    top: 10px;
+    /*height: 30px;
+    width: 30px;*/
+    height: 25px;
+    width: 25px;
+    /*border: 0;*/
+    border: 1px solid  black;
+    border-radius: 50px ;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+.form-radio:checked::before
+{
+    position: absolute;
+    font: 13px/1 'Open Sans', sans-serif;
+    left: 11px;
+    top: 7px;
+    content: '\02143';
+    transform: rotate(40deg);
+
+}
+.form-radio:hover
+{
+    background-color: #f16a78;
+    color: red;
+    font-weight: bold;
+    text-size: 20px;
+}
+.form-radio:checked
+{
+    background-color: #f16a78;
+    color: black;
+    font-weight: bold;
+    text-size: 50px;
+}
+b{
+    margin-left: -5px;
+    /*margin-top: -25px;
+    display: inline-block;*/
+}
+/*centrar nuestros botones */
+.center{
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.center .botones{
+    border-radius: 20px;
+    padding: 10px 50px;
+    background: #2ea2cc;
+    font-weight: bold;
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", Dotum, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+}
+/*estilos para el titulo*/
+h1{
+    text-align: center;
+    margin-bottom: 0;
+    text-decoration: orangered;
+    color: orangered;
+    background: #6c7781;
+    background-size: auto;
+    padding: 5px 0;
+}
+h3.titulo-escoger{
+    text-align: center;
+    margin: 20px;
+    color: black;
+    background: #919B9C;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+p{
+    margin: 30px;
+
+}
+/*table{
+    position: center;
+    border: black 1px solid;
+    width: 80%; height:40px;
+}*/
+#tablas{
+    margin: 2px auto;
+    width: 98%;
+    border-color: black;
+    border: 3px solid;
+}
+
+/*estilos para el inicio de la paguina*/
+/*estilos para el inicio de la paguina*/
+.container{
+    width: 96%;
+    height: auto;
+    margin: 25px auto;
+    /*background: ;*/
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.box{
+    width: 20%;
+    height: 40px;
+    background: #00ff00;
+    /*margin: auto 35px;*/
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: 5px #FF9600 ;
+}
+.box a{
+    text-decoration: none;
+}
+/*add responsive media queries*/
+
+@media screen and (max-width: 1200px){
+    .box{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box{
+        width: 98%;
+        /*color:*/
+    }
+}

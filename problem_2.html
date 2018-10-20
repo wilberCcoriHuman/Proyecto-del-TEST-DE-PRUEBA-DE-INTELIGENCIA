@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<h1>WONDERLIC </h1>
+<div id="contenedor" class="contenedor">
+    <!--<form action="formulario" id="formulario">-->
+        <div id="izquierda" class="caja">
+            <label>1. El último mes del año es:         </label><br>
+            <input class="form-radio" name="p1[]" type="radio" id="p1a"><b>1.</b>Enero
+            <input class="form-radio" name="p1[]" type="radio" id="p1b"><b>2.</b>Marzo
+            <input class="form-radio" name="p1[]" type="radio" id="p1c"><b>3.</b>Julio
+            <input class="form-radio" name="p1[]" type="radio" id="p1d"><b>4.</b>Diciembre
+            <input class="form-radio" name="p1[]" type="radio" id="p1e"><b>5.</b>Octubre
+            <br>
+            <label> 2. CAPTURAR es lo contrario de:  </label><br>
+            <input class="form-radio" name="p2[]" type="radio" id="p2a"><b>1.</b>Colocar
+            <input class="form-radio" name="p2[]" type="radio" id="p2b"><b>2.</b>Liberar
+            <input class="form-radio" name="p2[]" type="radio" id="p2c"><b>3.</b>Arriesgar
+            <input class="form-radio" name="p2[]" type="radio" id="p2d"><b>4.</b>Aventurar
+            <input class="form-radio" name="p2[]" type="radio" id="p2e"><b>5.</b>Degradar
+            <br>
+            <label>3. Todas las palabras abajo citadas se parecen entre sí ¿Cuál es la que menos parecido tiene con las otras?</label><br>
+            <input class="form-radio" name="p3[]" type="radio" id="p3a"><b>1.</b>Enero
+            <input class="form-radio" name="p3[]" type="radio" id="p3b"><b>2.</b>Agosto
+            <input class="form-radio" name="p3[]" type="radio" id="p3c"><b>3.</b>Miércoles
+            <input class="form-radio" name="p3[]" type="radio" id="p3d"><b>4.</b>Octubre
+            <input class="form-radio" name="p3[]" type="radio" id="p3e"><b>5.</b>Diciembre
+            <br>
+            <label>4. Conteste SI o NO: R.I.P. significa “ruegue a Dios por el” </label><br>
+            <input class="form-radio" name="p4[]" type="radio" id="p4a"><b>SI</b>
+            <input class="form-radio" name="p4[]" type="radio" id="p4b"><b>NO</b><!--
+            <input class="form-radio" name="p4" type="radio" id="p4c">c) humillación
+            <input class="form-radio" name="p4" type="radio" id="p4d">d) cobardía
+            <input class="form-radio" name="p4" type="radio" id="p4e">e) miedo-->
+            <br>
+            <label>5. En el siguientes conjunto de palabras ¿cuál  es diferente de las otras?   </label><br>
+            <input class="form-radio" name="p5[]" type="radio" id="p5a"><b>1.</b>Tropa
+            <input class="form-radio" name="p5[]" type="radio" id="p5b"><b>2.</b>Liga
+            <input class="form-radio" name="p5[]" type="radio" id="p5c"><b>3.</b>Participar
+            <input class="form-radio" name="p5[]" type="radio" id="p5d"><b>4.</b>Paquete
+            <input class="form-radio" name="p5[]" type="radio" id="p5e"><b>5.</b>Grupo
+            <br>
+            <label>6. USUAL es lo contrario de: </label><br>
+            <input class="form-radio" name="p6[]" type="radio" id="p6a"><b>1.</b>raro
+            <input class="form-radio" name="p6[]" type="radio" id="p6b"><b>2.</b>habitual
+            <input class="form-radio" name="p6[]" type="radio" id="p6c"><b>3.</b>regular
+            <input class="form-radio" name="p6[]" type="radio" id="p6d"><b>4.</b>constante
+            <input class="form-radio" name="p6[]" type="radio" id="p6e"><b>5.</b> siempre:
+            <br>
+            <label>7. ¿Cuál figura puede hacerse de esas dos partes? <br> <img class="imagen-pre2 imagen-pregunta" src="img/pregunta_7.png"></label><br>
+            <input class="form-radio" name="p7[]" type="radio" id="p7a"><b><img class="imgen-res7 imagen-respuesta" src="img/respuesta_7_1.png" alt=""></b>
+            <input class="form-radio" name="p7[]" type="radio" id="p7b"><b><img class="imgen-res7 imagen-respuesta" src="img/respuesta_7_2.png" alt=""></b>
+            <input class="form-radio" name="p7[]" type="radio" id="p7c"><b><img class="imgen-res7 imagen-respuesta" src="img/respuesta_7_3.png" alt=""></b>
+            <input class="form-radio" name="p7[]" type="radio" id="p7d"><b><img class="imgen-res7 imagen-respuesta" src="img/respuesta_7_4.png" alt=""></b>
+            <input class="form-radio" name="p7[]" type="radio" id="p7e"><b><img class="imgen-res7 imagen-respuesta" src="img/respuesta_7_5.png" alt=""></b>
+            <br>
+            <label>8. Vea la fila de números abajo indicados. ¿Cuál número debe venir después?    </label><br>
+            <input class="form-radio" name="p8" type="radio" id="p8a"><b>8</b>
+            <input class="form-radio" name="p8" type="radio" id="p8b"><b>4</b>
+            <input class="form-radio" name="p8" type="radio" id="p8c"><b>2</b>
+            <input class="form-radio" name="p8" type="radio" id="p8d"><b>1</b>
+            <input class="form-radio" name="p8" type="radio" id="p8e"><b>½</b>
+            <input class="form-radio" name="p8" type="radio" id="p8f"><b>¼</b>
+            <br>
+            <label>9. CLIENTE-CONSUMIDOR.  Estas palabras tienen:  </label><br>
+            <input class="form-radio" name="p9" type="radio" id="p9a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p9" type="radio" id="p9b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p9" type="radio" id="p9c"><b>3.</b>No son ni iguales ni contradictorias
+            <!--<input class="form-radio" name="p9" type="radio" id="p9d">d) valor
+            <input class="form-radio" name="p9" type="radio" id="p9e">e) rico-->
+            <br>
+            <label>10. ¿Cuál de las palabras citadas abajo está relacionada con oler, como los dientes se relacionan con la acción de masticar?  </label><br>
+            <input class="form-radio" name="p10" type="radio" id="p10a"><b>1.</b>dulce
+            <input class="form-radio" name="p10" type="radio" id="p10b"><b>2.</b>pestilencia
+            <input class="form-radio" name="p10" type="radio" id="p10c"><b>3.</b>olor
+            <input class="form-radio" name="p10" type="radio" id="p10d"><b>4.</b>nariz
+            <input class="form-radio" name="p10" type="radio" id="p10e"><b>5.</b>limpio
+            <br>
+            <label> 11. VERANO es lo contrario de: </label><br>
+            <input class="form-radio" name="p11" type="radio" id="p11a"><b>1.</b>vacación
+            <input class="form-radio" name="p11" type="radio" id="p11b"><b>2.</b>otoño
+            <input class="form-radio" name="p11" type="radio" id="p11c"><b>3.</b>invierno
+            <input class="form-radio" name="p11" type="radio" id="p11d"><b>4.</b>primavera
+            <input class="form-radio" name="p11" type="radio" id="p11e"><b>5.</b>nieve.
+            <br>
+            <label>12. Un avión vuela 300 metros en ½ segundo.  A esta misma velocidad ¿Cuántos metros recorrerá en 10 segundos?</label><br>
+            <input class="form-radio" name="p12" type="radio" id="p12a"><b>1.</b>2000
+            <input class="form-radio" name="p12" type="radio" id="p12b"><b>2.</b>12000
+            <input class="form-radio" name="p12" type="radio" id="p12c"><b>3.</b>6000
+            <input class="form-radio" name="p12" type="radio" id="p12d"><b>4.</b>200
+            <input class="form-radio" name="p12" type="radio" id="p12e"><b>5.</b>3000
+            <br>
+            <label>13. Suponga que las dos primeras afirmaciones son ciertas.  La última es:</label><br>
+            <input class="form-radio" name="p13" type="radio" id="p13a"><b>1.</b>Cierta
+            <input class="form-radio" name="p13" type="radio" id="p13b"><b>2.</b>Falsa
+            <input class="form-radio" name="p13" type="radio" id="p13c"><b>3.</b>Dudosa
+            <p>  Estos niños son normales.  </p>
+            <p>Todos los niños normales son activos </p>
+            <p>Estos niños son activos.</p>
+            <br>
+        <!--Hasta aqui una hoja ahora pasamos a la proxima hoja-->
+            <label>14. REMOTO es lo contrario de:</label><br>
+            <input class="form-radio" name="p14" type="radio" id="p14a"><b>1.</b> aislado
+            <input class="form-radio" name="p14" type="radio" id="p14b"><b>2.</b> cercano
+            <input class="form-radio" name="p14" type="radio" id="p14c"><b>3.</b> lejano
+            <input class="form-radio" name="p14" type="radio" id="p14d"><b>4.</b> precipitado
+            <input class="form-radio" name="p14" type="radio" id="p14e"><b>5.</b> exacto
+            <br>
+            <label>15. Los dulces de limón se venden  a 3 por 10 pesos. ¿Cuánto costará una docena y media?</label><br>
+            <input class="form-radio" name="p15" type="radio" id="p15a"><b>1.</b>60
+            <input class="form-radio" name="p15" type="radio" id="p15b"><b>2.</b> 20
+            <input class="form-radio" name="p15" type="radio" id="p15c"><b>3.</b> 80
+            <input class="form-radio" name="p15" type="radio" id="p15d"><b>4.</b> 100
+            <input class="form-radio" name="p15" type="radio" id="p15e"><b>5.</b> 30
+            <br>
+            <label>16. ¿Cuántas de las 5 cantidades abajo indicadas son idénticas una a la otra?</label><br>
+            <input class="form-radio" name="p16" type="radio" id="p16a"><b>84721  &nbsp;&nbsp; &nbsp;&nbsp;       84721</b><br>
+            <input class="form-radio" name="p16" type="radio" id="p16b"><b>9210651 &nbsp;&nbsp; &nbsp;&nbsp;    9210561</b><br>
+            <input class="form-radio" name="p16" type="radio" id="p16c"><b>14201201 &nbsp;&nbsp; &nbsp;&nbsp;  14210210</b><br>
+            <input class="form-radio" name="p16" type="radio" id="p16d"><b>96101101 &nbsp;&nbsp; &nbsp;&nbsp;  96101161</b><br>
+            <input class="form-radio" name="p16" type="radio" id="p16e"><b>88884444  &nbsp;&nbsp; &nbsp;&nbsp; 88884444</b><br>
+            <br>
+            <!--<label>17. Imagine Ud. que acomoda las siguientes palabras de modo que hagan una afirmación cierta.   Luego escriba la última letra de la última palabra como respuesta a este problema.</label><br>
+            <center> <p>siempre    un   verbo    oración    una    tiene</p></center>
+            <br>-->
+            <label>18. Un niño tiene 5 años y su hermana el doble de edad que él. Cuándo el niño tenga 8 años, ¿Cuál será la edad de su hermana?</label><br>
+            <input class="form-radio" name="p18" type="radio" id="p18a"><b>1.</b>8
+            <input class="form-radio" name="p18" type="radio" id="p18b"><b>2.</b>13
+            <input class="form-radio" name="p18" type="radio" id="p18c"><b>3.</b>20
+            <input class="form-radio" name="p18" type="radio" id="p18d"><b>4.</b>5
+            <input class="form-radio" name="p18" type="radio" id="p18e"><b>5.</b>15
+            <br>
+            <label>19. BAZO-VASO.  Estas palabras tienen:</label><br>
+            <input class="form-radio" name="p19" type="radio" id="p19a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p19" type="radio" id="p19b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p19" type="radio" id="p19c"><b>3.</b>No son ni iguales ni contradictorias
+            <br>
+            <label>20. Suponga que las dos primeras afirmaciones son verdaderas.  La última es:</label><br>
+            <input class="form-radio" name="p20" type="radio" id="p20a"><b>1.</b>Verdadera
+            <input class="form-radio" name="p20" type="radio" id="p20b"><b>2.</b>Falsa
+            <input class="form-radio" name="p20" type="radio" id="p20c"><b>3.</b>Dudoso
+            <p>Juan tiene la misma edad que María.</p>
+            <p> María es menor que Guillermo </p>
+            <p>Juan es más joven que Guillermo.</p>
+            <br>
+            <label>21. Un negociante compró varios cuadros por $ 4, 000.ºº.  Los vendió en  $ 5,000.ºº, ganando  $50. ºº  en cada cuadro. ¿Cuántos cuadros compró?</label><br>
+            <input class="form-radio" name="p21" type="radio" id="p21a"><b>1.</b>20
+            <input class="form-radio" name="p21" type="radio" id="p21b"><b>2.</b>30
+            <input class="form-radio" name="p21" type="radio" id="p21c"><b>3.</b>10
+            <input class="form-radio" name="p21" type="radio" id="p21d"><b>4.</b>50
+            <input class="form-radio" name="p21" type="radio" id="p21e"><b>5.</b>5
+            <br>
+            <label> 22. Suponga que arregla las siguientes palabras de manera que hagan una oración completa.  Si es un razonamiento verdadero ponga una (v ) en el paréntesis correspondiente; si es falsa ponga una (f ).</label><br>
+            <p> huevos     ponen     todas     las     gallinas</p>
+            <input class="form-radio" name="p22" type="radio" id="p22b"><b>V</b>
+            <input class="form-radio" name="p22" type="radio" id="p22c"><b>F</b>
+            <br>
+            <label>23. Dos de los siguientes proverbios tienen igual significado. ¿Cuáles son?  </label><br>
+            <input class="form-radio" name="p23" type="radio" id="p23a"><b>1.</b>Cada oveja con su pareja <br>
+            <input class="form-radio" name="p23" type="radio" id="p23b"><b>2.</b>De tal palo, tal astilla <br>
+            <input class="form-radio" name="p23" type="radio" id="p23c"><b>3.</b>Cría cuervos y te sacarán los ojos <br>
+            <input class="form-radio" name="p23" type="radio" id="p23d"><b>4.</b>Dime con quien andas y te diré quien eres <br>
+            <input class="form-radio" name="p23" type="radio" id="p23e"><b>5.</b>Son semillas del mismo granero
+            <br>
+            <!--hasta aqui la otra hoja-->
+            <label>24. Un reloj se atrasa un minuto 18 segundos en 39 días ¿Cuántos segundos se atrasa por día?</label><br>
+            <input class="form-radio" name="p24" type="radio" id="p24a"><b>1.</b>1
+            <input class="form-radio" name="p24" type="radio" id="p24b"><b>2.</b>2
+            <input class="form-radio" name="p24" type="radio" id="p24c"><b>3.</b>5
+            <input class="form-radio" name="p24" type="radio" id="p24d"><b>4.</b>10
+            <input class="form-radio" name="p24" type="radio" id="p24e"><b>5.</b>6
+            <br>
+            <label>25. HASTA- ASTA.  Estas palabras tienen:   </label><br>
+            <input class="form-radio" name="p25" type="radio" id="p25a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p26" type="radio" id="p25b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p26" type="radio" id="p25c"><b>3.</b>No son ni iguales ni contradictorias
+            <br>
+
+            <label>26 . Suponga que las dos primeras afirmaciones son correctas.  La última es: </label><br>
+            <input class="form-radio" name="p26" type="radio" id="p26a"><b>1.</b>Verdadera
+            <input class="form-radio" name="p26" type="radio" id="p26b"><b>2.</b>Falsa
+            <input class="form-radio" name="p26" type="radio" id="p26c"><b>3.</b>Dudosa.
+            <p>Todos los cuákeros son pacifistas.</p>
+            <p>Algunas personas en este cuarto son cuákeros.</p>
+            <p>Algunas personas en este cuarto son pacifistas</p>
+            <br>
+            <label>27. En 30 días un niño ahorró $100.ºº ¿Cuál fue su promedio de ahorro diario?  </label><br>
+            <input class="form-radio" name="p27" type="radio" id="p27a"><b>1.</b>2.5
+            <input class="form-radio" name="p27" type="radio" id="p27b"><b>2.</b>2
+            <input class="form-radio" name="p27" type="radio" id="p27c"><b>3.</b>7.3
+            <input class="form-radio" name="p27" type="radio" id="p27d"><b>4.</b>10
+            <input class="form-radio" name="p27" type="radio" id="p27e"><b>5.</b>3.33
+            <br>
+            <label> 28. INGENIOSO-INGENUO.  Estas palabras tienen:  </label><br>
+            <input class="form-radio" name="p28" type="radio" id="p28a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p28" type="radio" id="p28b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p28" type="radio" id="p28c"><b>3.</b>No son ni iguales ni contradictorias
+            <br>
+            <label>29. Dos hombres pescaron 36 pescados: X pescó 5 veces más lo que Y ¿Cuántos pescó Y?</label><br>
+            <input class="form-radio" name="p29" type="radio" id="p29a"><b>1.</b>4
+            <input class="form-radio" name="p29" type="radio" id="p29b"><b>2.</b>10
+            <input class="form-radio" name="p29" type="radio" id="p29c"><b>3.</b>6
+            <input class="form-radio" name="p29" type="radio" id="p29d"><b>4.</b>8
+            <input class="form-radio" name="p29" type="radio" id="p29e"><b>5.</b>2
+            <br>
+        </div>
+        <div id="derecha" class="caja">
+            <label>30. Un depósito rectangular, completamente lleno, contiene 800 metros cúbicos de granos.  Si el depósito tiene 8 mts. de ancho y 10 mts. de largo  ¿Qué profundidad tiene?</label><br>
+            <input class="form-radio" name="p30" type="radio" id="p30a"><b>1.</b>20
+            <input class="form-radio" name="p30" type="radio" id="p30b"><b>2.</b>10
+            <input class="form-radio" name="p30" type="radio" id="p30c"><b>3.</b>30
+            <input class="form-radio" name="p30" type="radio" id="p30d"><b>4.</b>5
+            <input class="form-radio" name="p30" type="radio" id="p30e"><b>5.</b>1
+            <br>
+            <label>31. Uno de los siguientes números no encaja en la serie ¿Cuál debe estar en su lugar?</label><br>
+            <input class="form-radio" name="p31" type="radio" id="p31a"><b>½</b>
+            <input class="form-radio" name="p31" type="radio" id="p31b"><b>¼</b>
+            <input class="form-radio" name="p31" type="radio" id="p31c"><b>1/6</b>
+            <input class="form-radio" name="p31" type="radio" id="p31d"><b>1/8</b>
+            <input class="form-radio" name="p31" type="radio" id="p31e"><b>1/9</b>
+            <input class="form-radio" name="p31" type="radio" id="p31f"><b>1/12</b>
+            <br>
+            <label>32. Conteste a esta pregunta SI ó NO:  A.C. Significa “Antes de Cristo” </label><br>
+            <input class="form-radio" name="p32" type="radio" id="p32a"><b>SI</b>
+            <input class="form-radio" name="p32" type="radio" id="p32b"><b>NO</b>
+            <br>
+            <label>33. CREYENTE-CRÉDULO.  Estas palabras tienen:  </label><br>
+            <input class="form-radio" name="p33" type="radio" id="p33a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p33" type="radio" id="p33b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p33" type="radio" id="p33c"><b>3.</b>No son ni iguales ni contradictorias
+            <br>
+            <label>34. Una falda necesita 2 ¼ mts. de tela ¿Cuántas faldas pueden hacerse de 45 mts?</label><br>
+            <input class="form-radio" name="p34" type="radio" id="p34a"><b>1.</b>50
+            <input class="form-radio" name="p34" type="radio" id="p34b"><b>2.</b>30
+            <input class="form-radio" name="p34" type="radio" id="p34c"><b>3.</b>60
+            <input class="form-radio" name="p34" type="radio" id="p34d"><b>4.</b>15
+            <input class="form-radio" name="p34" type="radio" id="p34e"><b>5.</b>20
+            <br>
+            <label>35. Un reloj estaba exacto al mediodía del lunes.  A las 2 p.m. del miércoles tenía un retraso de 25 segundos.  A la misma velocidad ¿Cuánto se retrasó en media hora?</label><br>
+            <input class="form-radio" name="p35" type="radio" id="p35a"><b>1.</b>45
+            <input class="form-radio" name="p35" type="radio" id="p35b"><b>2.</b>60
+            <input class="form-radio" name="p35" type="radio" id="p35c"><b>3.</b>50
+            <input class="form-radio" name="p35" type="radio" id="p35d"><b>4.</b>25
+            <input class="form-radio" name="p35" type="radio" id="p35e"><b>5.</b>3
+            <br>
+            <label>36. Nuestro equipo de Base-ball perdió 9 juegos en esta temporada. Esto fue 3/8 de lo que jugaron ¿Cuántos juegos jugaron en esa temporada?</label><br>
+            <input class="form-radio" name="p36" type="radio" id="p36a"><b>1.</b>24
+            <input class="form-radio" name="p36" type="radio" id="p36b"><b>2.</b>30
+            <input class="form-radio" name="p36" type="radio" id="p36c"><b>3.</b>3
+            <input class="form-radio" name="p36" type="radio" id="p36d"><b>4.</b>25
+            <input class="form-radio" name="p36" type="radio" id="p36e"><b>5.</b>14
+            <br>
+            <label> 37. ¿Cuál es el número que continua a los siguientes?  1     .5     .25     .125   </label><br>
+            <input class="form-radio" name="p37" type="radio" id="p37a"><b>1.</b>.0625
+            <input class="form-radio" name="p37" type="radio" id="p37b"><b>2.</b>.0756
+            <input class="form-radio" name="p37" type="radio" id="p37c"><b>3.</b>.3
+            <input class="form-radio" name="p37" type="radio" id="p37d"><b>4.</b>.625
+            <input class="form-radio" name="p37" type="radio" id="p37e"><b>5.</b>.350
+            <br>
+
+            <!--Hasta aqui una hoja tambien-->
+            <label>38. Esta figura geométrica puede dividirse por una línea recta en dos partes que unidas en cierto modo hacen un cuadrado perfecto.  Dibuje dicha línea juntando dos de los números.  Después escriba los números que den el resultado correcto.
+                <br> <img class="imagen-pre3 imagen-pregunta" src="img/pregunta_38.png" alt=""> </label><br>
+            <input class="form-radio" name="p38" type="radio" id="p38a"><b>1.</b>3-13
+            <input class="form-radio" name="p38" type="radio" id="p38b"><b>2.</b>1-8
+            <input class="form-radio" name="p38" type="radio" id="p38c"><b>3.</b>13-10
+            <input class="form-radio" name="p38" type="radio" id="p38d"><b>4.</b>14-18
+            <input class="form-radio" name="p38" type="radio" id="p38e"><b>5.</b>6-9
+            <br>
+            <label>39. Los significados de las siguientes oraciones son:   </label><br>
+            <input class="form-radio" name="p39" type="radio" id="p39a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p39" type="radio" id="p39b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p39" type="radio" id="p39c"><b>3.</b>No son ni iguales ni contradictorias
+            <p>Una escoba nueva barre mejor. </p>
+            <p>Los zapatos viejos son más cómodos</p>
+            <br>
+            <label>40. De los cinco nombres citados abajo.  ¿Cuántos son idénticos el uno del otro?  </label><br>
+            <input class="form-radio" name="p40" type="radio" id="p40a"><b>Ferrara J. D. &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;               Ferrera J. D.  </b><br>
+            <input class="form-radio" name="p40" type="radio" id="p40b"><b>Villafaña M.O.&nbsp;&nbsp; &nbsp;&nbsp;                                         Villafañe M.O. </b><br>
+            <input class="form-radio" name="p40" type="radio" id="p40c"><b>Díaz F.E.     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  Diéz F.E.      </b><br>
+            <input class="form-radio" name="p40" type="radio" id="p40d"><b>Palomar A.V.  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;                           Palomera A.V.  </b><br>
+            <input class="form-radio" name="p40" type="radio" id="p40e"><b>Parrés A.O.   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;              Parrés A.O.    </b><br>
+            <br>
+            <label>41. Dos de los proverbios abajo citados tienen igual significado. ¿Cuáles son? </label><br>
+            <input class="form-radio" name="p41" type="radio" id="p41a"><b>1.</b>El que está en el lodo querría meter al otro <br>
+            <input class="form-radio" name="p41" type="radio" id="p41b"><b>2.</b>Más vale tarde que nunca <br>
+            <input class="form-radio" name="p41" type="radio" id="p41c"><b>3.</b>Con la vara que mides serás medido <br>
+            <input class="form-radio" name="p41" type="radio" id="p41d"><b>4.</b>Mal de muchos consuelo de tontos <br>
+            <input class="form-radio" name="p41" type="radio" id="p41e"><b>5.</b>Perro que ladra no muerde <br>
+            <br>
+            <label>42. Esta figura geométrica puede dividirse por una línea recta en dos partes de tal manera que al unirla de cierto modo hace un cuadrado perfecto. Dibuje dicha línea juntando dos de los números.  Después escriba los números que den el resultado correcto.</label><br>
+            <p><img class="imagen-pre4 imagen-pregunta" src="img/pregunta_42.png" alt=""></p>
+            <input class="form-radio" name="p42" type="radio" id="p42a"><b>1.</b>24-12
+            <input class="form-radio" name="p42" type="radio" id="p42b"><b>2.</b>4-17
+            <input class="form-radio" name="p42" type="radio" id="p42c"><b>3.</b>3-22
+            <input class="form-radio" name="p42" type="radio" id="p42d"><b>4.</b>7-17
+            <input class="form-radio" name="p42" type="radio" id="p42e"><b>5.</b>1-15
+            <br>
+            <!--Hasta aqui una nueva hoja-->
+            <label> 43. ¿Cuál de los números de este grupo representa la cantidad más pequeña?  </label><br>
+            <input class="form-radio" name="p43" type="radio" id="p43a"><b>10</b>
+            <input class="form-radio" name="p43" type="radio" id="p43b"><b>1</b>
+            <input class="form-radio" name="p43" type="radio" id="p43c"><b>.999</b>
+            <input class="form-radio" name="p43" type="radio" id="p43d"><b>.33</b>
+            <input class="form-radio" name="p43" type="radio" id="p43e"><b>11</b>
+            <br>
+            <label>44. Los significados de las siguientes oraciones son.   </label><br>
+            <input class="form-radio" name="p44" type="radio" id="p44a"><b>1.</b>Significado igual
+            <input class="form-radio" name="p44" type="radio" id="p44b"><b>2.</b>Contradictorio
+            <input class="form-radio" name="p44" type="radio" id="p44c"><b>3.</b>No son ni iguales ni contradictorias
+            <p>Ningún hombre honrado se arrepintió de su honradez.</p>
+            <p>La honradez conduce al fracaso, aunque es ensalzada</p>
+            <br>
+            <label>45. Un vendedor compra un cajón de naranjas que contiene 12 docenas a $ 1.80.  Sabe que dos docenas se pudrirán antes de que las venda ¿A qué precio por docena deberá vender las buenas para ganar 1/3 del costo total?</label><br>
+            <input class="form-radio" name="p45" type="radio" id="p45a"><b>.10</b>
+            <input class="form-radio" name="p45" type="radio" id="p45b"><b>.24</b>
+            <input class="form-radio" name="p45" type="radio" id="p45c"><b>.999</b>
+            <input class="form-radio" name="p45" type="radio" id="p45d"><b>.33</b>
+            <input class="form-radio" name="p45" type="radio" id="p45e"><b>.26</b>
+            <br>
+            <label>46. En las siguientes palabras ¿Cuál de ellas es diferente a las demás? </label><br>
+            <input class="form-radio" name="p46" type="radio" id="p46a"><b>1.</b>Colonia
+            <input class="form-radio" name="p46" type="radio" id="p46b"><b>2.</b>Compañero
+            <input class="form-radio" name="p46" type="radio" id="p46c"><b>3.</b>Bandada
+            <input class="form-radio" name="p46" type="radio" id="p46d"><b>4.</b>Manojo
+            <input class="form-radio" name="p46" type="radio" id="p46e"><b>5 </b>onstelación
+            <br>
+            <label>47. Suponga que las dos primeras afirmaciones son ciertas.  La última es: </label><br>
+            <input class="form-radio" name="p47" type="radio" id="p47a"><b>1.</b>Verdadera
+            <input class="form-radio" name="p47" type="radio" id="p47b"><b>2.</b>Falsa
+            <input class="form-radio" name="p47" type="radio" id="p47c"><b>3.</b>Dudosa
+            <p>Algunos grandes hombres son ridiculizados.</p>
+            <p>Yo he sido ridiculizado.</p>
+            <p>Yo soy un gran hombre</p>
+            <br>
+            <label>48. Tres hombres forman una sociedad y acuerdan dividir las ganancias por igual.  X invierte  $ 4,500.ºº,  Y invierte  $3,500.ºº  y  Z  invierte  $ 2, 000.ºº     Si las ganancias son de $ 1,500.00  ¿Cuánto menos recibe X de lo que debería haber recibido si las ganancias hubieran sido proporcionales a lo que invirtió cada uno?</label><br>
+            <input class="form-radio" name="p48" type="radio" id="p48a"><b>1.</b>1.75
+            <input class="form-radio" name="p48" type="radio" id="p48b"><b>2.</b>2.80
+            <input class="form-radio" name="p48" type="radio" id="p48c"><b>3.</b>3.45
+            <input class="form-radio" name="p48" type="radio" id="p48d"><b>4.</b>1.50
+            <input class="form-radio" name="p48" type="radio" id="p48e"><b>5.</b>2.25
+            <br>
+            <label>49. Cuatro de las siguientes 5 partes pueden colocarse juntas de tal manera que formen un triángulo  ¿Cuáles 4 son? </label><br>
+            <input class="form-radio" name="p49" type="radio" id="p49a"><b><img class="imgen-res49 imagen-respuesta" src="img/rp-49-1.png" alt=""></b>
+            <input class="form-radio" name="p49" type="radio" id="p49b"><b><img class="imgen-res49 imagen-respuesta" src="img/rp-49-2.png" alt=""></b>
+            <input class="form-radio" name="p49" type="radio" id="p49c"><b><img class="imgen-res49 imagen-respuesta" src="img/rp-49-3.png" alt=""></b>
+            <input class="form-radio" name="p49" type="radio" id="p49d"><b><img class="imgen-res49 imagen-respuesta" src="img/rp-49-4.png" alt=""></b>
+            <input class="form-radio" name="p49" type="radio" id="p49e"><b><img class="imgen-res49 imagen-respuesta" src="img/rp-49-5.png" alt=""></b>
+            <br>
+            <label>50. Al imprimir un artículo de 30, 000 palabras, el impresor decide usar dos tamaños de letra. Al usar la letra más grande, una página impresa contiene 1200 palabras.  Al usar la letra más pequeña, una página contiene 1500 palabras. Se le permite en la revista al ya mencionado artículo 22 páginas  ¿Cuántas páginas deberán usarse para la letra pequeña?</label><br>
+            <input class="form-radio" name="p50" type="radio" id="p50a"><b>1.</b>12
+            <input class="form-radio" name="p50" type="radio" id="p50b"><b>2.</b>15
+            <input class="form-radio" name="p50" type="radio" id="p50c"><b>3.</b>20
+            <input class="form-radio" name="p50" type="radio" id="p50d"><b>4.</b>30
+            <input class="form-radio" name="p50" type="radio" id="p50e"><b>5.</b>10
+        </div>
+        <br><br><br><br>
+    <!--</form>-->
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <br><br><br><br><br><br><br>
+</div>
+<div class="center">
+    <input class="botones" type="button" id="calificar" class="calificar" value="Calificar" onclick="Calificar()">
+    <input class="botones" type="button" id="cancelar" class="cancelar" value="Cancelar" onclick="Cancelar()">
+</div>
+<script src="js/script2.js">
+
+</script>
+</body>
+</html>

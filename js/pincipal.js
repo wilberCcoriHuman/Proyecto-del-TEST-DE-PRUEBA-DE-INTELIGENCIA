@@ -1,0 +1,1 @@
+alert('Bienvenido al test de inteligencia del INFORMATICO');
